@@ -8,7 +8,7 @@
 * Typescript
 * ESLint
 
-## Information for NodeJS ##
+## Informations for NodeJS ##
 1. Just install NodeJS normally for your operating system.
 2. Search for "Node.JS command prompt" and start it.
 3. Navigate in the command prompt with `cd` to the project folder.
