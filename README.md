@@ -8,6 +8,13 @@
 * Typescript
 * ESLint
 
+## Information for NodeJS ##
+1. Just install NodeJS normally for your operating system.
+2. Search for "Node.JS command prompt" and start it
+3. Navigate in the command prompt with `cd` to the project folder
+⋅⋅* If your project folder is located on another drive, just type the drive's name in your command prompt. Like that: `D:`
+4. If you navigated successfully to your project folder start the project with the script commands that are in the readme
+
 ## Scripts ##
 `npm start` - starts the dev-server
 
