@@ -1,0 +1,49 @@
+/**
+Home CSS
+ */
+.display {
+    width: 800px;
+    height: 480px;
+    background: white;
+}
+.mainView  {
+    height: 90%;
+    position: relative;
+}
+.mainView .custom-switch {
+    height: 100%;
+}
+.startView {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/background_home.jpeg') no-repeat 25% 10%;
+    background-size: cover;
+}
+.startView > * {
+    margin: 0 1em 0 1em;
+}
+.startViewTouch {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    z-index: 5;
+}
+.techMenu {
+    width: 80px;
+    height: 50px;
+    margin: 0 0 1em 1em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: rgb(26, 24, 24);
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 4px;
+    color: rgb(174, 174, 174);
+    z-index: 6;
+}

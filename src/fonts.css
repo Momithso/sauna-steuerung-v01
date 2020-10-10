@@ -1,0 +1,8 @@
+/**
+Fonts
+ */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&family=Lato&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}

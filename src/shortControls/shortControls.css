@@ -1,0 +1,40 @@
+.shortControls {
+    height: 10%;
+    display: flex;
+    border-top: .25em solid #474747;
+}
+.shortControlsItem {
+    width: 9.1%;
+    background: #373636;
+    word-break: break-word;
+}
+.shortControlsItem {
+    border-right: 1px solid black;
+}
+.shortControlsItem:last-child {
+    border-right: none;
+}
+.shortControlsItem a {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.shortControlsItem p {
+    margin: 0;
+    font-size: 10pt;
+    color: white;
+}
+.shortControlsIcon {
+    font-size: 1.25em;
+}
+.shortControlsItem path {
+    fill: white;
+}
+.audioPlayerControlVolumeLevel p {
+    font-size: 2em;
+}
+.audioPlayerControlSpeaker p {
+    font-size: 1.15em;
+}

@@ -1,0 +1,59 @@
+.analogHumidity {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(26, 23, 23) url("humidity.png") no-repeat;
+    background-size: cover;
+    border: 4px solid black;
+    border-radius: 50%;
+    box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
+    inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+    0 15px 15px rgba(0, 0, 0, 0.3),
+    inset 0 15px 15px rgba(0, 0, 0, 0.3);
+}
+.analogHumidityPointer > p {
+    position: absolute;
+    bottom: 8%;
+    font-size: .6em;
+    color: rgb(207, 207, 207);
+}
+.analogHumidityPointer > p > span {
+    font-size: .8em;
+    color: rgb(207, 207, 207);
+}
+.analogHumidity::before {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: black;
+    border-radius: 50%;
+    z-index: 20;
+}
+.analogHumidityPointer, .analogHumidityPoint {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.analogHumidityPoint {
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    position: absolute;
+    border-radius: 50%;
+}
+.analogHumidityPoint::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 50%;
+    background: #ff105e;
+    z-index: 1;
+    border-radius: 6px 6px 0 0;
+}
